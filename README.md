@@ -1,3 +1,16 @@
+# Autonomly.io Capstone Project
+
+This is a team effort that involved the following members (alphabetical order)
+
+1. Kinshuk Chandra (kinshuk.ram@gmail.com) - Traffic Light detector package)
+2. Lance Lee (blitzbeat@gmail.com) - Classification model training) 
+3. Vikalp Mirsha (vikalp.mishra@gmail.com) - Twist controller package)
+4. Pantelis Monogioudis (monogioudis@yahoo.com) - Team Lead and Path Planner / Waypoint updater package)
+
+[carla]: ./imgs/carla.png "Carla Self-Driving Car"
+
+![carla]
+
 This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
 
 Please use **one** of the two installation options, either native **or** docker installation.
@@ -72,3 +85,14 @@ cd CarND-Capstone/ros
 roslaunch launch/site.launch
 ```
 5. Confirm that traffic light detection works on real life images
+
+# The End Result
+Here's a  link to our video demosnrating the car moving in the track with the full traffic 
+light classification. 
+
+[![project_video_output](https://img.youtube.com/vi/gY50B3Xd5Ls/0.jpg)](https://youtu.be/gY50B3Xd5Ls)
+
+### Development Environment Setup
+
+Our setup involves remote debugging of the code running in the ROS Ubuntu VM from a host OS that also runs the simulator.
+Detailed instructions for PyCharm are in https://github.com/pantelis/CarND-Capstone-Project/blob/master/dev_env.md. 
